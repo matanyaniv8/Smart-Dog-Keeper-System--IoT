@@ -10,12 +10,12 @@ This Arduino code is designed to create an interactive and dynamic smart dog kee
 ### System Components:
 The system uses a servo motor to turn the AC ON/OFF, temperature, and humidity sensor for measuring the room's temperature and humidity, and a water sensor for measuring the water level within a bowl. 
 
-#### Our two scenarios controlled by the ESP32 are:
+#### The two scenarios controlled by the ESP32:
   1. The ESP32 monitors the room's temperature. We created an automation with the ESP32 such that when it senses that the gap between the room's temperature and outside temperature is more than 2 degrees, it activates the servo motor and turns on the AC. 
   Once the gap has minimized to less than 2 degrees, it activates the servo again and turns the AC OFF.
   2. The ESP32 checks and update the water level in the dog's water bowl and notifies the dog's owner whnever the water level becomes low.
 
-#### Our two scenarios coming to the ESP32 from outside services are:
+#### The two scenarios coming to the ESP32 from outside services:
   1. The user city's outside temperature value coming from make.com weather services is being updated every 15 minutes within the make.com, which sends the value to the virtual pin of the outside temperature,
   that triggers an update off the outside temperature variable that ESP32 saves.
   This update can trigger the automation mentioned above in section 1. 
