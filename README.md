@@ -1,5 +1,5 @@
 # Smart Dog Keeper
-An ESP32 smart system aimed to help user control their pet's environment from a smartphone/ computer.
+An ESP32 smart system aimed to help users control their pet's environment from a smartphone/ computer.
 
 ## Video
 https://github.com/matanyaniv8/Smart-Dog-Keeper-System--IoT/assets/95882684/a825136d-6aa0-44b9-a64e-1c5d80164c80
