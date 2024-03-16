@@ -25,7 +25,7 @@ Also, we create a dashboard with Adafruit using MQTT requests to notify the user
 Adafruit also creates graphs and statistics on the above information so the user can track its dog water consumption and room temperature.
 
 ## Getting Started
-We'ved created a simple and accessible guide for creating this system using Instructable.com, please [press here](https://www.instructables.com/Building-Your-Own-Smart-Dog-Keeper-System-With-ESP/) if you would like to try it yourself.
+We'ved created a simple and accessible guide for creating this system using Instructable.com, please [press here](https://www.instructables.com/Building-Your-Own-Smart-Dog-Keeper-System-With-ESP/) if you'd like to try this yourself.
 
 ## License
 
