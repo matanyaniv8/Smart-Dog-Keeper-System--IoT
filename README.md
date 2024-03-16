@@ -5,12 +5,13 @@ An ESP32 smart system aimed to help user control their pet's environment from a 
 https://github.com/matanyaniv8/Smart-Dog-Keeper-System--IoT/assets/95882684/a825136d-6aa0-44b9-a64e-1c5d80164c80
 
 ## Features
-This Arduino code is designed to create an interactive and dynamic smart dog keeper using an ESP32 controller and Blynk, make.com, and adafruit.io services. 
+This Arduino code is designed to create an interactive and dynamic smart dog keeper using an ESP32 controller and Blynk, make.com, and adafruit.io services.
+
+### System Components:
 The system uses a servo motor to turn the AC ON/OFF, temperature, and humidity sensor for measuring the room's temperature and humidity, and a water sensor for measuring the water level within a bowl. 
 
 #### Our two scenarios controlled by the ESP32 are:
-  1. The ESP32 monitors the room's temperature. We created an automation with the ESP32 such that when it senses that the gap between the room's temperature and outside temperature
-  is more than 2 degrees, it activates the servo motor and turns on the AC. 
+  1. The ESP32 monitors the room's temperature. We created an automation with the ESP32 such that when it senses that the gap between the room's temperature and outside temperature is more than 2 degrees, it activates the servo motor and turns on the AC. 
   Once the gap has minimized to less than 2 degrees, it activates the servo again and turns the AC OFF.
   2. The ESP32 checks and update the water level in the dog's water bowl and notifies the dog's owner whnever the water level becomes low.
 
